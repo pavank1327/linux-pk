@@ -1,0 +1,31 @@
+In Linux, you can copy multiple files using the cp command. Here are some common ways to do it:
+
+1. Copy Multiple Files to a Directory
+
+--> cp file1.txt file2.txt file3.txt /destination/directory/
+
+This copies file1.txt, file2.txt, and file3.txt to /destination/directory/.
+
+2. Copy All Files with a Specific Pattern
+
+--> cp *.txt /destination/directory/
+
+This copies all .txt files to /destination/directory/.
+
+3. Copy Multiple Files Using Brace Expansion
+
+--> cp {file1.txt,file2.txt,file3.txt} /destination/directory/
+
+This is another way to copy specific files.
+
+4. Copy Files from Multiple Directories
+
+--> cp /source1/file1.txt /source2/file2.txt /destination/
+
+This copies file1.txt from /source1/ and file2.txt from /source2/ into /destination/.
+
+5. Copy an Entire Directory (-r for Recursive)
+
+--> cp -r /source/directory/ /destination/
+
+This copies everything inside /source/directory/ to /destination/.
